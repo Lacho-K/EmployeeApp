@@ -179,7 +179,8 @@ namespace EmployeesApp
             {
                 if (i == 4)
                 {
-                    employeeRequiredInfo[i + employeeRequiredInfo.Length / 2] = generateUniqueID().ToString(); PrintSuccessMessage($"Successfuly generated unique ID!");
+                    employeeRequiredInfo[i + employeeRequiredInfo.Length / 2] = generateUniqueID().ToString(); 
+                    PrintSuccessMessage($"Successfuly generated unique ID!");
                 }
                 else
                 {
