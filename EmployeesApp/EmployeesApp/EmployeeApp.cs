@@ -94,7 +94,7 @@ namespace EmployeesApp
             else
             {
                 Employees.Remove(employeeForRemoval);
-                PrintSuccessMessage($"{employeeForRemoval.Name} {employeeForRemoval.Surname} {employeeForRemoval.LastName} successfully removed!");
+                PrintSuccessMessage($"{employeeForRemoval.Name.Trim()} {employeeForRemoval.Surname.Trim()} {employeeForRemoval.LastName.Trim()} successfully removed!");
                 WriteEmployeesToExternalFile();
             }
         }
